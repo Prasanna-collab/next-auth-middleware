@@ -1,0 +1,18 @@
+npm i -D prisma => to install prisma orm.
+npm i @prisma-client => to initate connecetion between orm and client app
+npx primsa init => to generate prisma.schema file.
+npx prisma generate => to create a db migrations.
+npx prisma db push => to update the database.
+
+neon db is used, similarily vercel postgres can be installed.
+
+
+for intergating auth.js into the application. beacuse it has the default model inside in it.
+
+npm i @auth/prisma-adapter
+
+
+to encrypt the password
+npm i bcrypt
+to install it types.
+npm i -D @types/bcrypt
