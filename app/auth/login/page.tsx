@@ -1,11 +1,12 @@
+import LoginForm from '@/components/auth/login-form';
 import React from 'react'
 
 interface Props {}
 
 const page = () => {
   return <div>
-    <h1 className='text-red-600'>Error Occured!</h1>
+    <LoginForm/>
   </div>
 }
 
-export default page
+export default page;

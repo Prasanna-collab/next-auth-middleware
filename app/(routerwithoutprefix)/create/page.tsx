@@ -4,7 +4,7 @@ interface Props {}
 
 const page = () => {
   return <div>
-    npw we call call this file directly after localhst:3000 since it has the  parantehisis in its parent folder.
+    now we call call this file directly after localhst:3000 since it has the  parantehisis in its parent folder.
   </div>
 }
 
